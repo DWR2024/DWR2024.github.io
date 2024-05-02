@@ -1,0 +1,150 @@
+body {
+    padding-top: 70px;
+    overflow: hidden;
+    overflow-y: auto;
+    width: 100vw;
+}
+
+.container {
+    margin-top: 15px;
+}
+
+.navbar {
+    background-color: #343a40;
+    width: 100vw;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    border-color: #fff;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.nom h1 {
+    color: rgb(168, 15, 43);
+}
+
+.apropos {
+    background-color: #CCCCCC;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.competence {
+    background-image: url("/images/2887cccd828511dbedcfb3708070083a.jpg");
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.cmpt {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.cmpt h3 {
+    margin-bottom: 10px;
+    color: rgb(28, 199, 114);
+}
+
+.cmpt p {
+    font-size: 16px;
+}
+
+.projet {
+    background-image: url("/images/b3fb24b01bb8369921da7516d9a11774.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.project {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    margin-bottom: 10px;
+    color: rgb(220, 173, 20);
+}
+
+.project p {
+    font-size: 16px;
+}
+
+.project a {
+    display: block;
+    margin-top: 15px;
+}
+
+.contact-section {
+    padding: 100px 0;
+    background-color: #CCCCCC;
+}
+
+.contact-section h3 {
+    margin-bottom: 20px;
+}
+
+.contact-section ul {
+    padding-left: 0;
+    color: #000000;
+}
+
+.contact-section ul li {
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+
+.contact-section ul li a {
+    text-decoration: none;
+
+}
+
+.contact-section form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-section form input[type="text"],
+.contact-section form input[type="email"],
+.contact-section form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.contact-section form button {
+    padding: 10px 20px;
+}
+
+.social-icon li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 5px 0;
+}
